@@ -1,73 +1,94 @@
-# Welcome to your Lovable project
+# 🌱 Green Steps: Track and Improve
 
-## Project info
+## Project Info
 
-**URL**: https://lovable.dev/projects/951d1253-a07b-41e1-a13f-87f67e88038f
+**Description**: Track your daily eco-friendly habits, complete sustainability challenges, and earn badges while making a positive impact on the environment. Green Steps helps you develop lasting green practices in a fun and interactive way.  
 
-## How can I edit this code?
+**Team**: 
+- [Ganesh R](https://github.com/GaneshR2766)
+- [Makesh P](https://github.com/Makesh-P)
+- [Santhosh R](https://github.com/Santhosh-696)
+- [Pranav M S Krishnan](https://github.com/Pranav-MSK)
 
-There are several ways of editing your application.
+**Project Status**: ✅ Active | 🟢 Student Project
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/951d1253-a07b-41e1-a13f-87f67e88038f) and start prompting.
+## ⚡Features
+- Track daily eco-friendly habits
+- Complete sustainability challenges
+- Earn badges for achievements
+- Interactive progress tracker with Earth visual
+- Simple and minimalistic UI
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## How to Run Locally
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+To work on this project locally, you need **Node.js & npm** installed. You can install Node.js using [nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Follow these steps:
 
-Follow these steps:
-
+### Step 1: Clone the repository.
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/Pranav-MSK/Green-Energy-App.git
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Step 2: Navigate to the project directory.
+```sh
+cd YOUR_PROJECT_FOLDER
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Step 3: Install the necessary dependencies.
+```sh
+npm install
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Step 4: Start the development server with auto-reloading and an instant preview.
+```sh
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## How to Edit
 
-**Use GitHub Codespaces**
+You can edit the project using any code editor such as VS Code. Key files include:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- src/pages/Challenges.tsx – edit eco challenges.
+- src/pages/Earth.tsx - edit earth and progress
+- src/hooks/useEcoProgress.ts – add new challenges or badges.
+- src/pages/Badges.tsx – display badges and their unlocked status.
+- src/index.html – page metadata (title, description, meta tags).
 
-## What technologies are used for this project?
+After editing, run _**npm run dev**_ to preview changes locally.
 
-This project is built with:
+---
 
+## Project Technologies
+This project uses:
 - Vite
 - TypeScript
 - React
-- shadcn-ui
 - Tailwind CSS
+- shadcn-ui
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/951d1253-a07b-41e1-a13f-87f67e88038f) and click on Share -> Publish.
+## Build & Deployment
 
-## Can I connect a custom domain to my Lovable project?
+### To create a production build:
+```sh
+npm run build
+```
 
-Yes, you can!
+### To preview the production build:
+```bash
+npm run preview
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## Notes
+- Green Steps tracks users’ eco-friendly habits and rewards them with badges for completing challenges.
+- Designed to promote sustainable practices in a fun, interactive, and educational way.

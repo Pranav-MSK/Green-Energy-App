@@ -1,4 +1,4 @@
-/*import { useEcoProgress } from "@/hooks/useEcoProgress";
+import { useEcoProgress } from "@/hooks/useEcoProgress";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Trophy, Lock } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -12,7 +12,7 @@ import badgeGreenThumb from "@/assets/badge-green-thumb.png";
 import badgeEnergySaver from "@/assets/badge-energy-saver.png";
 import badgeEcoWarrior from "@/assets/badge-eco-warrior.png";
 
-*/const badgeImages = {
+const badgeImages = {
   "badge-first-step":"", //badgeFirstStep,
   "badge-weekly-hero": "",//badgeWeeklyHero,
   "badge-streak-starter": "",//badgeStreakStarter,
@@ -22,7 +22,7 @@ import badgeEcoWarrior from "@/assets/badge-eco-warrior.png";
   "badge-energy-saver": "",//badgeEnergySaver,
   "badge-eco-warrior": "",//badgeEcoWarrior,
 };
-/*
+
 const Badges = () => {
   const { data } = useEcoProgress();
   const unlockedCount = data.badges.filter(b => b.unlocked).length;
@@ -129,8 +129,7 @@ const Badges = () => {
 
 export default Badges;
 
-*/
-
+/*
 import { useEcoProgress } from "@/hooks/useEcoProgress";
 
 const Badges = () => {
@@ -164,4 +163,4 @@ const Badges = () => {
     </div>
   );
 };
-export default Badges;
+export default Badges;*/

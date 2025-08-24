@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 120 15% 97%;
+    --foreground: 120 10% 15%;
+
+    --card: 120 15% 98%;
+    --card-foreground: 120 10% 15%;
+
+    --popover: 120 15% 98%;
+    --popover-foreground: 120 10% 15%;
+
+    --primary: 120 70% 40%;
+    --primary-foreground: 120 15% 98%;
+
+    --secondary: 120 30% 90%;
+    --secondary-foreground: 120 10% 15%;
+
+    --muted: 120 20% 94%;
+    --muted-foreground: 120 10% 50%;
+
+    --accent: 140 50% 85%;
+    --accent-foreground: 120 10% 15%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 120 15% 98%;
+
+    --border: 120 20% 88%;
+    --input: 120 20% 94%;
+    --ring: 120 70% 40%;
+
+    --radius: 0.75rem;
+
+    /* Green Energy Theme Colors */
+    --earth-healthy: 120 70% 40%;
+    --earth-moderate: 60 70% 50%;
+    --earth-warning: 30 85% 55%;
+    --earth-danger: 0 75% 55%;
+    --success: 120 60% 45%;
+    --warning: 45 90% 55%;
+    --info: 200 70% 50%;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 120 8% 8%;
+    --foreground: 120 15% 92%;
+
+    --card: 120 8% 10%;
+    --card-foreground: 120 15% 92%;
+
+    --popover: 120 8% 10%;
+    --popover-foreground: 120 15% 92%;
+
+    --primary: 120 60% 55%;
+    --primary-foreground: 120 8% 8%;
+
+    --secondary: 120 10% 18%;
+    --secondary-foreground: 120 15% 92%;
+
+    --muted: 120 10% 18%;
+    --muted-foreground: 120 10% 65%;
+
+    --accent: 120 15% 22%;
+    --accent-foreground: 120 15% 92%;
+
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 120 15% 92%;
+
+    --border: 120 10% 20%;
+    --input: 120 10% 20%;
+    --ring: 120 60% 55%;
+
+    /* Dark mode earth colors */
+    --earth-healthy: 120 60% 55%;
+    --earth-moderate: 60 70% 60%;
+    --earth-warning: 30 80% 60%;
+    --earth-danger: 0 70% 60%;
+    --success: 120 50% 50%;
+    --warning: 45 85% 60%;
+    --info: 200 60% 60%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

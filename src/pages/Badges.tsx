@@ -13,14 +13,14 @@ import badgeEnergySaver from "@/assets/badge-energy-saver.png";
 import badgeEcoWarrior from "@/assets/badge-eco-warrior.png";
 
 const badgeImages = {
-  "badge-first-step":"", //badgeFirstStep,
-  "badge-weekly-hero": "",//badgeWeeklyHero,
-  "badge-streak-starter": "",//badgeStreakStarter,
-  "badge-plastic-free": "",//badgePlasticFree,
-  "badge-water-saver": "",//badgeWaterSaver,
-  "badge-green-thumb": "",//badgeGreenThumb,
-  "badge-energy-saver": "",//badgeEnergySaver,
-  "badge-eco-warrior": "",//badgeEcoWarrior,
+  "badge-first-step":badgeFirstStep,
+  "badge-weekly-hero": badgeWeeklyHero,
+  "badge-streak-starter": badgeStreakStarter,
+  "badge-plastic-free": badgePlasticFree,
+  "badge-water-saver": badgeWaterSaver,
+  "badge-green-thumb": badgeGreenThumb,
+  "badge-energy-saver": badgeEnergySaver,
+  "badge-eco-warrior": badgeEcoWarrior,
 };
 
 const Badges = () => {

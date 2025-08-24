@@ -18,9 +18,9 @@ const badgeImages = {
   "badge-streak-starter": badgeStreakStarter,
   "badge-plastic-free": badgePlasticFree,
   "badge-water-saver": badgeWaterSaver,
-  "badge-green-thumb": badgeGreenThumb,
-  "badge-energy-saver": badgeEnergySaver,
-  "badge-eco-warrior": badgeEcoWarrior,
+  "badge-green-thumb": "",//badgeGreenThumb,
+  "badge-energy-saver": "",//badgeEnergySaver,
+  "badge-eco-warrior": "",//badgeEcoWarrior,
 };
 
 const Badges = () => {
